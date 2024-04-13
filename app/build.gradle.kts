@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.chat_gpt"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.chat_gpt"
