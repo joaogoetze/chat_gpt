@@ -19,6 +19,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.03" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvChat"
+        android:layout_width="390dp"
+        android:layout_height="600dp"
+        app:layout_constraintBottom_toTopOf="@+id/edtChat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.480"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvChatViewTitle"
+        app:layout_constraintVertical_bias="0.322" />
+
     <EditText
         android:id="@+id/edtChat"
         android:layout_width="330dp"
